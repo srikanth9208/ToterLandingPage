@@ -32,6 +32,10 @@
   color: white;
 }
 
+[class*="button"] {
+  width: 100%;
+}
+
 @media screen and (max-width: 600px) {
   .topnav a, .topnav input[type=text] {
     display: block;
